@@ -44,7 +44,7 @@ html {
     width:calc(100%/3);
   }
 
-  .snslink {
+  .recipelink {
     display: inline-block;
     border: solid 1px #2b2a27;
     font-size: 0.875rem;
@@ -66,4 +66,14 @@ html {
 
   footer ul li {
     margin: 0 10px;
+  }
+
+  @media screen and (max-width: 834px) {
+    .intoroducephoto ul {
+        flex-direction: column;
+    }
+
+    .intoroducephoto ul li {
+        width:100%;
+    }
   }
