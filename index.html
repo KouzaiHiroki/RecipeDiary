@@ -1,79 +1,55 @@
-@charset "UTF-8";
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Recipe Diary</title>
+        <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-html {
-    font-size: 100%;
-  }
-  body {
-    color: #2b2a27;
-    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
-  }
-  img {
-    max-width: 100%;
-  }
-  ul {
-    list-style: none;
-  }
-  a {
-    color: #2b2a27;
-  }
+    <body>
 
-  .topphoto img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    object-position: center top;
-    margin-bottom: 80px;
-  }
+        <main>
 
-  .intoroducetext {
-    text-align: center;
-    padding: 0 20px;
-    margin-bottom: 80px;
-  }
+            <div class="topphoto">
+                <img src="img/mainvisual.jpg">
+            </div>
 
-  .intoroducetext h1{
-    margin-bottom: 20px;
-  }
+            <div class="intoroducetext">
+                <h1>Recipe Diary</h1>
+                <p>日々の料理レシピをまとめています。</p>
+                <p>和食や洋食、中華、お菓子までいろいろな料理レシピをアップしていますので、</p>
+                <p>みなさんの献立にお役立てくださいね！</p>
+            </div>
 
-  .intoroducephoto ul {
-    display: flex;
-    margin-bottom: 60px;
-  }
+            <div class="intoroducephoto">
+                <ul>
+                    <li><img src="img/recipe1.jpg"></li>
+                    <li><img src="img/recipe2.jpg"></li>
+                    <li><img src="img/recipe3.jpg"></li>
+                </ul>
+            </div>
 
-  .intoroducephoto ul li {
-    width:calc(100%/3);
-  }
+            <div class="recipelink">
+                <a href="#">レシピ一覧を見る</a>
+            </div>
 
-  .recipelink {
-    display: inline-block;
-    border: solid 1px #2b2a27;
-    font-size: 0.875rem;
-    padding: 18px 60px;
-    text-decoration: none;
-  }
+        </main>
+        <footer>
+            <div class="snslink">
+                <ul>
+                    <li>instagram</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
 
-  footer {
-    font-size: 0.75rem;
-    padding: 20px;
-    text-align: center;
-  }
-
-  footer ul {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-
-  footer ul li {
-    margin: 0 10px;
-  }
-
-  @media screen and (max-width: 834px) {
-    .intoroducephoto ul {
-        flex-direction: column;
-    }
-
-    .intoroducephoto ul li {
-        width:100%;
-    }
-  }
+            <div class="copyright">
+                <p>&copy;2021 Recipe Diary</p>
+            </div>
+        </footer>
+    </body>
+</html>
