@@ -24,3 +24,22 @@ html {
     object-position: center top;
     margin-bottom: 80px;
   }
+
+  .introducetext {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 80px;
+  }
+
+  .introducetext h1{
+    margin-bottom: 20px;
+  }
+
+  .intoroducephoto ul {
+    display: flex;
+    margin-bottom: 60px;
+  }
+
+  .intoroducephoto ul li {
+    width:calc(100%/3);
+  }
