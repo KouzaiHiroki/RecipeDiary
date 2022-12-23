@@ -43,3 +43,27 @@ html {
   .intoroducephoto ul li {
     width:calc(100%/3);
   }
+
+  .snslink {
+    display: inline-block;
+    border: solid 1px #2b2a27;
+    font-size: 0.875rem;
+    padding: 18px 60px;
+    text-decoration: none;
+  }
+
+  footer {
+    font-size: 0.75rem;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  footer ul li {
+    margin: 0 10px;
+  }
